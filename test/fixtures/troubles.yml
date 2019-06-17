@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyText
+  type: 
+  continent: MyString
+  country: MyString
+  region: MyString
+  date_occurrence: 2019-06-17 16:32:21
+
+two:
+  description: MyText
+  type: 
+  continent: MyString
+  country: MyString
+  region: MyString
+  date_occurrence: 2019-06-17 16:32:21
