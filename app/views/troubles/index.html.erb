@@ -1,2 +1,10 @@
 <h1>Troubles#index</h1>
 <p>Find me in app/views/troubles/index.html.erb</p>
+<% @troubles.each do |trouble| %>
+  <ul>
+    <li><%= trouble.country %></li>
+    <li><%= trouble.region %></li>
+    <li><%= trouble.continent %></li>
+    <li><%= trouble.description %></li>
+  </ul>
+<% end %>

@@ -14,3 +14,18 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require jquery
+//= require jquery_ujs
+
+
+$(document).on('turbolinks:load', function() {
+  return $('select#trouble_country').change(function(event) {
+    var country, select_wrapper, url;
+    select_wrapper = $('#trouble_state_wrapper');
+    $('select', select_wrapper).attr('disabled', true);
+    country = $(this).val();
+    url = "/troubles/subregion_options?parent_region=" + country;
+    $("p").text(url);
+    return select_wrapper.load(url);
+  });
+});
