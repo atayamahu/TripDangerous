@@ -1,2 +1,10 @@
 <h1>Troubles#country</h1>
-<p>Find me in app/views/troubles/country.html.erb</p>
+<p>現在登録がある国だよ</p>
+<p>新規の書き込み大量募集中！！！</p>
+
+<% @countrys.each do |country| %>
+  <ul>
+    <li><%= country.country %></li>
+    <%= link_to country.country, "http://localhost:3000/troubles/"+country.country %>
+  </ul>
+<% end %>

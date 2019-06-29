@@ -3,15 +3,31 @@
 one:
   description: MyText
   type: 
-  continent: MyString
-  country: MyString
-  region: MyString
+  continent: Acontinent1
+  country: America
+  region: Aregion1
   date_occurrence: 2019-06-17 16:32:21
 
 two:
   description: MyText
   type: 
-  continent: MyString
-  country: MyString
-  region: MyString
+  continent: Acontinent2
+  country: America
+  region: Aregion2
+  date_occurrence: 2019-06-17 16:32:21
+
+three:
+  description: MyText
+  type: 
+  continent: Acontinent2
+  country: America
+  region: Aregion3
+  date_occurrence: 2019-06-17 16:32:21
+
+four:
+  description: MyText
+  type: 
+  continent: weve
+  country: Igirish
+  region: weeeee
   date_occurrence: 2019-06-17 16:32:21
