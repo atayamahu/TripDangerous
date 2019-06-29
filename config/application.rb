@@ -17,3 +17,5 @@ module TripDangerous
     # the framework and any gems in your application.
   end
 end
+
+Rails.application.config.assets.precompile += %w( *.eot *.woff *.ttf *.svg *.otf *.png *.jpg *.jpeg *.gif vendor.css vendor.js )
